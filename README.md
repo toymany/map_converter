@@ -6,7 +6,7 @@ make, python を使用しています。
 
 # 使い方
 1. エクセルや、スプレッドでマップを作成します。
-![Stage01](doc/Stage01.PNG) 
+![Stage01](doc/Stage01.png) 
 
 1. メモ帳などにコピペして tsv/ に保存します。ファイルの拡張子をtsvにします。
 [例 Stage01](tsv/Stage01.tsv)
