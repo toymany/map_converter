@@ -1,6 +1,7 @@
-public static readonly string[][] Stage01= new string[]
+public static class Stage01
+{
+    public static readonly string[][] MapData = new string[][]
     {
-        new string[]{ "BL" },
         new string[]{ "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL" },
         new string[]{ "BL", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "BL" },
         new string[]{ "BL", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "BL" },
@@ -35,4 +36,4 @@ public static readonly string[][] Stage01= new string[]
         new string[]{ "BL", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "--", "BL" },
         new string[]{ "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL", "BL" },
     };
-    
+}

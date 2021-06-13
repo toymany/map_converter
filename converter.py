@@ -47,11 +47,14 @@ def convert_line(line):
 def to_code(lines, filename):
     name = os.path.splitext(os.path.basename(filename))[0]
     code_lines = '\n'.join(lines)
-    code = f'''public static readonly string[][] {name}= new string[]
+    code = f'''public static class {name}
+{{
+    public static readonly string[][] MapData = new string[][]
     {{
 {code_lines}
     }};
-    '''
+}}
+'''
     return code
 
 # 文字列置き換え
