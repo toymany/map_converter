@@ -9,24 +9,10 @@ make, python を使用しています。
 ![Stage01](doc/Stage01.png) 
 
 1. メモ帳などにコピペして tsv/ に保存します。ファイルの拡張子をtsvにします。
-[例 Stage01](tsv/Stage01.tsv)
+[例 Stage01.tsv](tsv/Stage01.tsv)
 
 1. リポジトリのルートでmakeを実行します。
 1. cs/にC#のコードが出力されます。
-[例 Stage01](doc/Stage01.cs)
-
-
-
-
-
-# map_converter
-a map data of tsv(tab separate values) convers to c sharp code.
-
-
-# Usage
-make
-
-# Require
-make, python
+[例 Stage01.cs](doc/Stage01.cs)
 
 
